@@ -1,0 +1,63 @@
+body,html{
+    height: 100%;
+    background-color: rgb(29, 171, 228);
+}
+
+/* heading */
+.heading  {
+color:white;
+text-align: center;
+}
+
+.todo {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin: 10px;
+    padding: 10px;
+    background-color:white;
+    border-radius: 5px;
+}
+
+.todo p{
+    width: 90%;
+}
+
+.status button{
+    margin: 3px;
+    border-radius: 100px;
+    border: 1px solid rgb(8, 174, 240);
+}
+.complete{
+    background-color:rgb(255, 255, 255);
+    color: rgb(19, 133, 226);
+
+}
+.complete:hover {
+    color: rgba(255, 255, 255, 0.904);
+    background-color: rgb(22, 167, 224);
+}
+.delete{
+    background-color: rgb(255, 255, 255);
+    color: rgb(6, 130, 231);
+}
+.delete:hover {
+    background-color:rgb(19, 173, 211);
+    color: white;
+    
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 0;
+    width: 98%;
+    outline: none;
+}
+
+.todo1 {
+    height: 400px;
+    overflow: auto;
+    
+}
